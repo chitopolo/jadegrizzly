@@ -26,6 +26,12 @@ Router.route('/photos', function(){
   this.render('photos');
 });
 
+//RP: public_games route
+Router.route('/public_games', function(){
+  this.render('public_games');
+});
+
+
 AccountsTemplates.configureRoute('signIn');
 
 AccountsTemplates.configureRoute('signIn', {
