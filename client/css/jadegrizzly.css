@@ -79,7 +79,7 @@ input {
   background: none;
   border: none;
   border-bottom: 1px solid white;
-  color: steelblue;
+  color: white;
   margin-left: 15px;
   margin-bottom: 15px;
   padding-bottom: 8px;
@@ -153,11 +153,13 @@ a {
   width: 100%;
 }
 
-div.cancel-game{
+button.cancel-game{
   background-color: #fff;
+  color: steelblue;
 }
-div.create-game{
+button.create-game{
   background-color: #fff;
+  color: steelblue;
 }
 
 button {
